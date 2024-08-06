@@ -45,7 +45,51 @@ header {
                 color: $cor-primaria;
                 font-weight: 500;
                 font-family: $ft-textos;
-             }
+            }
         }
     }
+
+    #home {
+        max-width: 1040px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .textos-home {
+            width: 464px;
+        }
+
+        .img-home {
+            max-width: 474px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+
+        h1 {
+            font-size: 42px;
+            color: $cor-primaria;
+            margin-bottom: 2rem;
+            font-family: $ft-titulos;
+
+            span {
+                color: $cor-secundaria;
+            }
+        }
+
+        button{
+            background: $cor-secundaria;
+            color: white;
+            width: 200px;
+            height: 40px;
+            border: 0;
+            border-radius: 20px;
+        }
+
+    }
+
 }
